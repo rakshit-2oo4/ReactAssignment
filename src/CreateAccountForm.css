@@ -1,0 +1,56 @@
+.create-account-container {
+    font-family: "Rubik";
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .create-account-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    color: #8A2BE2;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  input[type="radio"]:checked{
+    accent-color: #8A2BE2;
+  }
+  .create-account-button {
+    background-color: #8A2BE2;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+  }

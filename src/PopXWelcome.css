@@ -1,0 +1,31 @@
+.mainPage{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Rubik";
+    padding: 20px;
+}
+.heading{
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.para{
+    color: #1D2226;
+    opacity: 0.6;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    text-align: left;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 100%;
+}
